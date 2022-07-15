@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"499e3c886de6474b8793b30bf745ce44","collectionName":"SMSStatusTracker","type":"collection"}

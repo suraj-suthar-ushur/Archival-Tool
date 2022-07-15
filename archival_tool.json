@@ -1,0 +1,32 @@
+{
+  "global": [
+    {
+      "db": "sms",
+      "collection": "SMSStatusTracker",
+      "Date": "DateUpdated",
+      "attributes": {}
+    }
+  ],
+  "enterprise": [
+    {
+      "db": "sms",
+      "collection": "RecordQueue",
+      "Date": "updatedDate",
+      "attributes": {}
+    },
+    {
+      "db": "mobilyze",
+      "collection": "UshurActivites",
+      "Date": "date",
+      "attributes": {}
+    },
+    {
+      "db": "mobilyze",
+      "collection": "NotificationRecords",
+      "Date": "updatedDate",
+      "attributes": {
+        "isNotSent": true
+      }
+    }
+  ]
+}
