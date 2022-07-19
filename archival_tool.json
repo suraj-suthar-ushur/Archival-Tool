@@ -1,8 +1,10 @@
 {
+  "mongousername": "ushurUser",
+  "mongopassword": "ushur",
   "global": [
     {
       "db": "sms",
-      "collection": "SMSStatusTracker",
+      "collection": "SMSStatusTracker_dum",
       "Date": "DateUpdated",
       "attributes": {}
     }
@@ -10,19 +12,19 @@
   "enterprise": [
     {
       "db": "sms",
-      "collection": "RecordQueue",
+      "collection": "RecordQueue_dum",
       "Date": "updatedDate",
       "attributes": {}
     },
     {
       "db": "mobilyze",
-      "collection": "UshurActivites",
+      "collection": "UshurActivites_dum",
       "Date": "date",
       "attributes": {}
     },
     {
       "db": "mobilyze",
-      "collection": "NotificationRecords",
+      "collection": "NotificationRecords_dum",
       "Date": "updatedDate",
       "attributes": {
         "isNotSent": true
